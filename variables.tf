@@ -1,6 +1,6 @@
 variable "bgtest_image" {
   type        = string
-  description = "Tempo Docker image to use"
+  description = bgtest Docker image to use"
   default     = "loafoe/bg:v0.0.4"
 }
 variable "cf_org" {
@@ -17,7 +17,7 @@ variable "cf_domain" {
 }
 variable "environment" {
   type        = map(any)
-  description = "Environment variables for Grafana Tempo"
+  description = "Environment variables"
   default     = {}
 }
 variable "memory" {
