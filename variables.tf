@@ -1,6 +1,6 @@
 variable "bgtest_image" {
   type        = string
-  description = bgtest Docker image to use"
+  description = "bgtest Docker image to use"
   default     = "loafoe/bg:v0.0.4"
 }
 variable "cf_org" {
